@@ -1,17 +1,3 @@
-// ==UserScript==
-// @name         Gemini Copy Export
-// @namespace    https://github.com/simplespace-cat/userscripts
-// @version      2.5
-// @description  Scroll to the top of the page → Click the button
-// @homepageURL https://github.com/simplespace-cat/Gemini-Export
-// @author       @simplespace-cat
-// @license      Apache License Version 2.0
-// @icon https://www.google.com/s2/favicons?sz=64&domain=gemini.google.com
-// @match        https://gemini.google.com/app/*
-// @match        https://gemini.google.com/app
-// @run-at       document-end
-// @grant        none
-// ==/UserScript==
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -48,6 +34,22 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+// ==UserScript==
+// @name         Gemini Copy Export
+// @namespace    https://github.com/simplespace-cat/userscripts
+// @version      2.5
+// @description  Scroll to the top of the page → Click the button
+// @homepageURL https://github.com/simplespace-cat/Gemini-Export
+// @author       @simplespace-cat
+// @license      Apache License Version 2.0
+// @icon https://www.google.com/s2/favicons?sz=64&domain=gemini.google.com
+// @match        https://gemini.google.com/app/*
+// @match        https://gemini.google.com/app
+// @run-at       document-end
+// @grant        none
+// @downloadURL https://raw.githubusercontent.com/simplespace-cat/Gemini-Export/main/copy/index.user.js
+// @updateURL   https://raw.githubusercontent.com/simplespace-cat/Gemini-Export/main/copy/index.user.js
+// ==/UserScript==
 function logger(osrc_nachricht, osrc_stufe) {
     if (osrc_stufe === void 0) { osrc_stufe = 'log'; }
     var osrc_zeitstempel = new Date().toISOString();
