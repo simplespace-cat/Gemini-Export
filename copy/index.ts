@@ -11,8 +11,8 @@
 // @match        https://gemini.google.com/app
 // @run-at       document-end
 // @grant        none
-// @downloadURL https://raw.githubusercontent.com/simplespace-cat/Gemini-Export/main/copy/index.user.js
-// @updateURL   https://raw.githubusercontent.com/simplespace-cat/Gemini-Export/main/copy/index.user.js
+// @downloadURL https://raw.githubusercontent.com/simplespace-cat/Gemini-Export/main/copy/Gemini-export.user.js
+// @updateURL   https://raw.githubusercontent.com/simplespace-cat/Gemini-Export/main/copy/Gemini-export.user.js
 // ==/UserScript==
 
 // open source version
