@@ -47,8 +47,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 // @match        https://gemini.google.com/app
 // @run-at       document-end
 // @grant        none
-// @downloadURL https://raw.githubusercontent.com/simplespace-cat/Gemini-Export/main/copy/index.user.js
-// @updateURL   https://raw.githubusercontent.com/simplespace-cat/Gemini-Export/main/copy/index.user.js
+// @downloadURL https://raw.githubusercontent.com/simplespace-cat/Gemini-Export/main/copy/Gemini-export.user.js
+// @updateURL   https://raw.githubusercontent.com/simplespace-cat/Gemini-Export/main/copy/Gemini-export.user.js
 // ==/UserScript==
 function logger(osrc_nachricht, osrc_stufe) {
     if (osrc_stufe === void 0) { osrc_stufe = 'log'; }
